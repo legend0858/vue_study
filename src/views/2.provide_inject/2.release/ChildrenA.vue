@@ -1,6 +1,6 @@
 <template>
   <div class="border">
-    <h1 :style="{color:color}">A 结点</h1>
+    <h1 :style="{color:colorWrap.color}">A 结点</h1>
     <button @click="() => changeColor()">改变color</button>
     <ChildrenB />
     <ChildrenC />
@@ -19,20 +19,23 @@ export default {
   },
   data() {
     return {
-      color: "blue"
+      colorWrap: {
+        color: "red"
+      },
     };
   },
   provide() {
     return {
-      color: "blue"
+      colorWrap: this.colorWrap,
+      changeColor: this.changeColor,
     };
   },
   methods: {
     changeColor(color) {
       if (color) {
-        this.color = color;
+        this.colorWrap.color = color;
       } else {
-        this.color = this.color === "blue" ? "red" : "blue";
+        this.colorWrap.color = this.colorWrap.color === "blue" ? "red" : "blue";
       }
     }
   }
