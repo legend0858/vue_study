@@ -1,8 +1,13 @@
-<template functional>
+<template>
   <div class="border2">
-    <h3>I 结点</h3>
+    <h3 :style="{color:color}">I 结点</h3>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  components: {},
+  inject: [
+    'color'
+  ],
+};
 </script>

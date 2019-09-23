@@ -22,6 +22,11 @@ export default {
       color: "blue"
     };
   },
+  provide() {
+    return {
+      color: "blue"
+    };
+  },
   methods: {
     changeColor(color) {
       if (color) {

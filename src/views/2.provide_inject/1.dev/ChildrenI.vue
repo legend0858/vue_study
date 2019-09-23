@@ -1,4 +1,4 @@
-<template functional>
+<template>
   <div class="border2">
     <h3>I 结点</h3>
   </div>
