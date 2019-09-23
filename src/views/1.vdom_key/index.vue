@@ -42,7 +42,7 @@ import ChildrenA5 from "./ChildrenA5";
 import ChildrenA6 from "./ChildrenA6";
 import ChildrenA7 from "./ChildrenA7";
 export default {
-  name: "vdome_key",
+  name: "VDomKey",
   components: {
     ChildrenA0,
     ChildrenA00,

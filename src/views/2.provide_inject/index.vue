@@ -18,7 +18,7 @@ import ChildrenA0 from "./1.dev/ChildrenA";
 import ChildrenA1 from "./2.release/ChildrenA";
 import ChildrenA2 from "./3.observable/ChildrenA";
 export default {
-  name: "provide_inject",
+  name: "ProvideInject",
   components: {
     ChildrenA0,
     ChildrenA1,

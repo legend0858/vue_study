@@ -15,9 +15,9 @@ export default {
 
 <style lang="less">
 #nav {
-  display: inline-block;
+  /*display: inline-block;
   width: 250px;
-  text-align: left;
+  text-align: left;*/
   padding: 30px;
   a {
     font-size: 20px;
