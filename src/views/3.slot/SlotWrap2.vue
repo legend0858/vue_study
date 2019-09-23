@@ -16,7 +16,7 @@
 <script>
 import SlotDome from "./Slot2";
 export default {
-  name: "",
+  name: "SlotWrap2",
   components: {
     SlotDome
   },

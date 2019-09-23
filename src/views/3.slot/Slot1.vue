@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-  name: "",
+  name: "Slot1",
   components: {},
   filters: {},
   mixins: [],

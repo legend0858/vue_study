@@ -22,7 +22,7 @@
 <script>
 import SlotDemo from "./Slot1";
 export default {
-  name: "",
+  name: "SlotWrap1",
   components: {
     SlotDemo
   },
