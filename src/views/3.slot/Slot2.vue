@@ -1,5 +1,9 @@
 <template>
-  <div>组件内容</div>
+  <ul>
+    <li v-for="(user,index) in list" :key="index" class="li">
+      <slot name="personInfo" :user="user" :index="index"></slot>
+    </li>
+  </ul>
 </template>
 <script>
 export default {
@@ -7,7 +11,9 @@ export default {
   components: {},
   filters: {},
   mixins: [],
-  props: {},
+  props: {
+    list:Array,
+  },
   data() {
     return {};
   },
@@ -18,4 +24,9 @@ export default {
   methods: {}
 };
 </script>
-<style lang="less"></style>
+<style lang="less">
+  .li {
+    border-bottom: 1px dashed #CCC;
+    list-style: none;
+  }
+</style>
