@@ -26,5 +26,10 @@ export default new Router({
       name: "slot",
       component: () => import("./views/3.slot")
     },
+    {
+      path: "/practice",
+      name: "practive",
+      component: () => import("./views/4.practice")
+    }
   ]
 });
