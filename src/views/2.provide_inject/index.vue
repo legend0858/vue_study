@@ -7,7 +7,7 @@
       <a-tab-pane key="ChildrenA1" tab="完成">
         <ChildrenA1 />
       </a-tab-pane>
-      <a-tab-pane key="ChildrenA2" tab="优化实现">
+      <a-tab-pane key="ChildrenA2" tab="observable">
         <ChildrenA2 />
       </a-tab-pane>
     </a-tabs>
@@ -16,7 +16,7 @@
 <script>
 import ChildrenA0 from "./1.dev/ChildrenA";
 import ChildrenA1 from "./2.release/ChildrenA";
-import ChildrenA2 from "./3.optimize/ChildrenA";
+import ChildrenA2 from "./3.observable/ChildrenA";
 export default {
   name: "provide_inject",
   components: {
