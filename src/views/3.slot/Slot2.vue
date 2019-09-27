@@ -1,7 +1,9 @@
 <template>
   <ul>
     <li v-for="(user,index) in list" :key="index" class="li">
-      <slot name="personInfo" :user="user" :index="index"></slot>
+      <slot name="personInfo" :user="user" :index="index">
+        {{user.name}} {{user.age}}
+      </slot>
     </li>
   </ul>
 </template>
