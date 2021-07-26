@@ -3,7 +3,7 @@
     <p><router-link :to="`/vdom_key`">1. 虚拟DOM与key</router-link></p>
     <p><router-link :to="`/provide_inject`">2. provide/inject</router-link></p>
     <p><router-link :to="`/slot`">3. slot插槽</router-link></p>
-    <p><router-link :to="`/practice`">4. 思考题答案</router-link></p>
+    <p><router-link :to="`/exercise`">4. 思考题答案</router-link></p>
   </div>
 </template>
 
